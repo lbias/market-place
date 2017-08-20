@@ -16,3 +16,9 @@ end
 group :development do
   gem 'sqlite3'
 end
+
+group :test do
+  gem "rspec-rails"
+  gem "factory_girl_rails"
+  gem 'ffaker'
+end
